@@ -32,7 +32,12 @@ Smartphone buyers often find it challenging to compare specifications across mul
    - Saves the cleaned dataset as `Scrapped_data.csv`.  
 
 ## 🚀 How to Run the Project  
-### **1️⃣ Install Dependencies**  
-```bash
-pip install selenium beautifulsoup4 pandas numpy
-Run the Scraper (Extract HTML)
+1. Install Dependencies 
+   ```bash
+   pip install selenium beautifulsoup4 pandas numpy
+2. Run the Scraper (Extract HTML)
+   ```bash
+   python smartprix.py
+3. Run the Data Extraction (Parse HTML & Save Data)
+   
+   Open smartphones.ipynb in Jupyter Notebook and execute the cells.
